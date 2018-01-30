@@ -1,7 +1,7 @@
 {
 	"$schema": "./node_modules/@angular/cli/lib/config/schema.json",
 	"project": {
-		"name": "tour-of-heroes"
+		"name": "angular.io-example"
 	},
 	"apps": [
 		{
@@ -14,7 +14,7 @@
 			"test": "test.ts",
 			"tsconfig": "tsconfig.app.json",
 			"testTsconfig": "tsconfig.spec.json",
-			"prefix": "my",
+			"prefix": "app",
 			"styles": ["styles.css"],
 			"scripts": [],
 			"environmentSource": "environments/environment.ts",
@@ -31,13 +31,16 @@
 	},
 	"lint": [
 		{
-			"project": "src/tsconfig.app.json"
+			"project": "src/tsconfig.app.json",
+			"exclude": "**/node_modules/**"
 		},
 		{
-			"project": "src/tsconfig.spec.json"
+			"project": "src/tsconfig.spec.json",
+			"exclude": "**/node_modules/**"
 		},
 		{
-			"project": "e2e/tsconfig.e2e.json"
+			"project": "e2e/tsconfig.e2e.json",
+			"exclude": "**/node_modules/**"
 		}
 	],
 	"test": {
@@ -47,6 +50,9 @@
 	},
 	"defaults": {
 		"styleExt": "css",
-		"component": {}
+		"component": {},
+		"serve": {
+			"port": 4300
+		}
 	}
 }
