@@ -14,16 +14,6 @@
 			}
 		},
 		{
-			"identifier": "node server",
-			"type": "npm",
-			"script": "start-server",
-			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		},
-		{
 			"identifier": "ng test",
 			"type": "npm",
 			"script": "test",
