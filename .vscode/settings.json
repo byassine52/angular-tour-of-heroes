@@ -1,0 +1,8 @@
+{
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"search.exclude": {
+		"node_modules/": true
+	},
+	"editor.renderWhitespace": "all"
+}

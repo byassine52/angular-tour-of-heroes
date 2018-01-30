@@ -10,15 +10,15 @@ import { Hero } from './hero';
 
 @Injectable()
 export class HeroSearchService {
-  constructor(private http: Http) { }
+	constructor(private http: Http) {}
 
-  search(term: string): Observable<Hero[]> {
-    return this.http
-      .get(`app/heroes/?name=${term}`)
-      .map((r: Response) => r.json().data as Hero[])
-      .catch((error: any) => {
-          console.error('An friendly error occurred', error);
-          return Observable.throw(error.message || error);
-      });
-  }
+	search(term: string): Observable<Hero[]> {
+		return this.http
+			.get(`app/heroes/?name=${term}`)
+			.map((r: Response) => r.json().data as Hero[])
+			.catch((error: any) => {
+				console.error('An friendly error occurred', error);
+				return Observable.throw(error.message || error);
+			});
+	}
 }
