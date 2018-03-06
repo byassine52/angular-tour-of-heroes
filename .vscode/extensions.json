@@ -1,0 +1,24 @@
+{
+	"recommendations": [
+		"AdamCaviness.theme-monokai-dark-soda",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+		"codezombiech.gitignore",
+		"dbaeumer.vscode-eslint",
+		"donjayamanne.githistory",
+		"eamodio.gitlens",
+		"EditorConfig.editorconfig",
+		"eg2.tslint",
+		"eg2.vscode-npm-script",
+		"gamunu.vscode-yarn",
+		"humao.rest-client",
+		"joelday.docthis",
+		"johnpapa.angular-essentials",
+		"ms-vscode.sublime-keybindings",
+		"msjsdiag.debugger-for-chrome",
+		"rafaelmaiolla.remote-vscode",
+		"redhat.vscode-yaml",
+		"robertohuertasm.vscode-icons",
+		"vector-of-bool.gitflow"
+	]
+}
